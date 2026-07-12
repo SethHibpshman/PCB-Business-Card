@@ -20,13 +20,13 @@
 
 ## Overview
 
-This card is a small side project built to double as both a functional reference sheet and a business card. Instead of printing on paper, the whole thing lives on a PCB. One face is packed with the formulas, footprints, and color codes I reach for most often on the bench. The other is a straight up business card with contact info and a quick summary of my skill set, backed by QR codes linking out to GitHub and Printables.
+This card is a small side project built to double as both a functional reference sheet and a business card. Instead of printing on paper, the whole thing lives on a PCB. One face is packed with the common
 
 The dual tone look comes from the contrast between the white silkscreen ink and the bare gold exposed copper underneath, so no paint or extra process is needed to get a two color card off a standard fab run.
 
 ## Design
 
-Photos of both sides are above. The front is a bench reference sheet featuring an Ohm's law wheel, resistor color code, SMD package sizes, common footprints, LED wavelength chart, and watt color code. The back is the actual business card, mirrored on the second card in the panel so both read correctly once separated.
+Renders of both sides are above. The front is a bench reference sheet featuring an Ohm's law wheel, measurement conversions, SMD package sizes, common footprints, light wavelength chart, and a ruler on each side (metric & imperial). The back is the actual business card, mirrored on the second card in the panel so both read correctly once separated.
 
 The dual tone look comes from the contrast between the white silkscreen ink and the bare gold exposed copper underneath, so no paint or extra process is needed to get a two color card off a standard fab run.
 
@@ -38,7 +38,7 @@ The panel holds two cards, joined by a perforated snap break rather than a V-sco
 
 ### PCB Design
 
-Designed in KiCad. All project files are in [`/hardware/kicad_project_files`](/hardware/kicad_project_files).
+Designed in KiCad. All project files are in [`/hardware/kicad_project_files`](/cad_files).
 
 | Property | Detail |
 |----------|--------|
@@ -61,9 +61,11 @@ Designed in KiCad. All project files are in [`/hardware/kicad_project_files`](/h
 
 ## Author
 
-**Seth Hibpshman**
-
+**Seth Hibpshman**  
 Student of Electrical Engineering, Eastern Washington University
+
+## AI Disclosure
+_AI (LLM) tools were used for quality assurance and formatting of this README._
 
 ## License
 
